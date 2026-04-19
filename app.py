@@ -8,7 +8,7 @@ with open("words.txt", "r") as f:
 # 改行を消す
 words = [line.strip() for line in lines if line.strip()]
 
-st.title("ことり🐤のキラキラ✨単語帳 ")
+st.title("ことり🐤のキラキラ✨暮らしの言葉 ")
 
 # ボタンでランダム表示
 if st.button("次へ🦆✨"):
